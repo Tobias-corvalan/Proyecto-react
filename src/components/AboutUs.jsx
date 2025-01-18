@@ -1,4 +1,6 @@
 import { Grid, Typography } from "@mui/material";
+import adorableDog from "../assets/adorable-dog-2.jpg";
+import adorableDog2 from "../assets/adorable-dog.webp";
 
 const AboutUs = () => {
   return (
@@ -13,6 +15,12 @@ const AboutUs = () => {
             para crear soluciones digitales que promuevan la inclusión y la
             estabilidad.
           </Typography>
+        </Grid>
+        <Grid item sx={{ backgroundColor: "D9D9D9" }}>
+          <figure>
+            <img src={adorableDog} alt="perrito" />
+            <img src={adorableDog2} alt="perrito" />
+          </figure>
         </Grid>
       </Grid>
     </>
